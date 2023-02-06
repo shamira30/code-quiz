@@ -107,3 +107,12 @@ function showResults(questions, quizContainer, resultsContainer){
 	// show number of correct answers out of total
 	resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
 }
+
+// on submit, show results
+submitButton.onclick = function(){
+	showResults(questions, quizContainer, resultsContainer);
+}
+
+var quizContainer = document.getElementById('quiz');
+var resultsContainer = document.getElementById('results');
+var submitButton = document.getElementById('submit');
