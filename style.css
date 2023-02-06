@@ -42,7 +42,7 @@ body{
 	padding: 5px;
 	width: 80vw;
 	height: 10vh;
-	background-color: #c7dddf;
+	background-color: #dc9892;
 	font-size: x-large;
 	text-align: center;
 	
@@ -63,7 +63,7 @@ body{
 	padding: 5px;
 	width: 80vw;
 	height: 20vh;
-	background-color: #9eb1b3;
+	background-color: #fac296;
 		
 }
 .option{	
@@ -71,11 +71,11 @@ body{
 	width: 15vw;
 	height: 10vh;
 	font-size: larger;
-	background-color: lightskyblue;
+	background-color:#fac296;
 	border-radius: 25%;
 }
 .option:hover{
-	background-color: lightgoldenrodyellow;
+	background-color: rgba(232, 194, 5, 0.743);
 }
 .navigation{
 	width: 80vw;
@@ -84,7 +84,7 @@ body{
 	padding: 5px;
 	display: flex;
 	justify-content: space-around;
-	background-color:#c7dddf;
+	background-color: #dc9892;
 }
 
 .evaluate,.next{
@@ -95,9 +95,9 @@ body{
 }
 .evaluate{
 	
-	background-color: #50DBB4;
+	background-color: #4fae8e;
 }
 .next{
 	color: white;
-	background-color: #BF3325;
+	background-color: #bb1809;
 }
